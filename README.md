@@ -47,4 +47,4 @@ documentation on events:
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/react-events-crash-course-lab'>React Events Crash Course Lab</a> on Learn.co and start learning to code for free.</p>
 
-[legend]: https://en.wikipedia.org/wiki/Draft:Chrome_Boi
+[legend]: https://en.everybodywiki.com/Chrome_Boi
