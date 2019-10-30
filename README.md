@@ -1,4 +1,4 @@
-# React Events Crash COuse Lab
+# React Events Crash Course Lab
 
 
 ## Objectives
