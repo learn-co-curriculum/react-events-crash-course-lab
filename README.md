@@ -1,10 +1,9 @@
-# React Props Movie Lab
+# React Events Crash COuse Lab
 
 
 ## Objectives
 
 1. Practice affixing and handling Synthetic Events in React
-2. Have fun with an absolute [legend][legend]
 
 
 ## Introduction
