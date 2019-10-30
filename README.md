@@ -8,9 +8,12 @@
 
 ## Introduction
 
-Let's jump right into a React application and add event capturing + handling
+Meet [Chrome Boi][chrome-boi]! He's a Boi dressed as Google Chrome, and he's going to be
+joining you in this lab!
+
+We're going to jump right into a React application and add event capturing + handling
 functionality. We have a simple single component application that renders a
-900x600 canvas. All of our work will be done in `src/ChromeBoisDomain.js`. 
+900x600 canvas. All of our work will be done in `src/ChromeBoisDomain.js`.
 
 For this lab, minimal guidance will be given. If you run into trouble, you are
 expected to reference the React Crash Course ReadMe lesson and React
@@ -26,9 +29,13 @@ documentation on events:
 - Finish implementing the `handleMouseMove` method. This method should capture the `x` and `y` coordinates of the mouse from the event and use them to invoke the `drawChromeBoiAtCoords` function that has been provided and is already imported (`drawChromeBoiAtCoords` expects two arguments, an x and a y coordinate)
 - Add an event listener to the `<canvas>` element to capture a click. Create an event handler which, when fired, invokes the provided `toggleCycling` function (with no arguments)
 - Add an event listener to the `<canvas>` element to capture when a key is pressed. When a key is pressed, an event handler should invoke the the provided `resize` function with a single argument of either '+' or '-':
-  - If the key pressed was 'a', then it should call `resize` with '+'
-  - If the key pressed was 's', then it should call `resize` with '-' 
+  - If the key pressed was 'a', then it should invoke `resize` and pass in '+'.
+  - If the key pressed was 's', then it should invoke `resize` and pass in '-'.
+  - You'll only be able to register a Keyboard event if the canvas is in focus. So on load of the page, either click the canvas for press the tab key to test out this feature.
 
+**Hints:**
+- You do not need any state in this application to make it work. The focus of this lab is practicing event handling in React.
+- The functions `drawChromeBoiAtCoords`, `toggleCycling`, and `resize` are NOT props. They are functions exported from the `canvasHelpers.js` file, so you can't call them off `this.props`; just invoke them like a regular function. 
 
 #### Once Finished
 
@@ -46,4 +53,4 @@ documentation on events:
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/react-events-crash-course-lab'>React Events Crash Course Lab</a> on Learn.co and start learning to code for free.</p>
 
-[legend]: https://en.everybodywiki.com/Chrome_Boi
+[chrome-boi]: https://en.everybodywiki.com/Chrome_Boi
