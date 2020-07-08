@@ -51,6 +51,4 @@ documentation on events:
 - [Handling Events](https://reactjs.org/docs/handling-events.html)
 - [Supported Events](https://reactjs.org/docs/events.html#supported-events)
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/react-events-crash-course-lab'>React Events Crash Course Lab</a> on Learn.co and start learning to code for free.</p>
-
 [chrome-boi]: https://en.everybodywiki.com/Chrome_Boi
